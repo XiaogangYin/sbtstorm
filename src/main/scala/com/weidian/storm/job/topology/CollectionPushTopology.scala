@@ -16,7 +16,7 @@ import java.util.ArrayList
 
 object CollectionPushTopology {
   def main(args: Array[String]) {
-    val zkConnectStr:String = "10.1.24.100:2181"
+    val zkConnectStr:String = "10.1.24.110:181"
   
     val connectStringParser = new ConnectStringParser(zkConnectStr);
     val serverInetAddresses = connectStringParser.getServerAddresses();
